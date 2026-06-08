@@ -1,7 +1,9 @@
 const Database = require('better-sqlite3');
 const path = require('path');
 
-const db = new Database(path.join(__dirname, '../database/mazhapath.db'));
+const dbPath = path.join(__dirname, '..', '..', 'database', 'mazhapath.db');
+console.log('DB Path:', dbPath);
+const db = new Database(dbPath);
 
 // Create table if it doesn't exist
 db.exec(`
