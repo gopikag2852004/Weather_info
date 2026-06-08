@@ -45,7 +45,7 @@ const getRoute = async (req, res) => {
     const baseDurationMinutes = Math.round(route.duration / 60);
 
     // Check flood zones near route
-    const [floodZones] = await db.query('SELECT * FROM flood_zones WHERE risk_level IN ("high", "medium")');
+   const floodZones = db.prepare('SELECT * FROM flood_zones WHERE risk_level IN ("high", "medium")').all();
 
     // Simple check: count flood zones in same districts as source/destination
     const rainfallAmount = parseFloat(rainfall) || 5.0;

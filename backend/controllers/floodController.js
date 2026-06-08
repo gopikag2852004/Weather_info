@@ -1,8 +1,8 @@
 const db = require('../config/db');
 
-const getAllFloodZones = async (req, res) => {
+const getAllFloodZones = (req, res) => {
   try {
-    const [rows] = await db.query('SELECT * FROM flood_zones');
+    const rows = db.prepare('SELECT * FROM flood_zones').all();
     res.json(rows);
   } catch (error) {
     console.error('Flood zones fetch error:', error.message);
@@ -10,13 +10,10 @@ const getAllFloodZones = async (req, res) => {
   }
 };
 
-const getFloodZonesByDistrict = async (req, res) => {
+const getFloodZonesByDistrict = (req, res) => {
   try {
     const { district } = req.params;
-    const [rows] = await db.query(
-      'SELECT * FROM flood_zones WHERE district = ?',
-      [district]
-    );
+    const rows = db.prepare('SELECT * FROM flood_zones WHERE district = ?').all(district);
     res.json(rows);
   } catch (error) {
     console.error('Flood zones fetch error:', error.message);
