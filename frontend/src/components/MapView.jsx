@@ -77,4 +77,19 @@ const MapView = ({ routeData, floodZones }) => {
             key={zone.id}
             center={[zone.latitude, zone.longitude]}
             radius={3000}
-            color={zone.risk_level ===
+            color={zone.risk_level === 'high' ? '#FF6B6B' : '#FF9A3C'}
+            fillOpacity={0.3}
+          >
+            <Popup>
+              <strong>{zone.name}</strong><br />
+              Risk: {zone.risk_level}<br />
+              {zone.description}
+            </Popup>
+          </Circle>
+        ))}
+      </MapContainer>
+    </div>
+  );
+};
+
+export default MapView;

@@ -29,7 +29,6 @@ body {
   min-height: 100vh;
 }
 
-/* Cartoon card style */
 .card {
   background: var(--card-bg);
   border-radius: var(--border-radius);
@@ -44,7 +43,6 @@ body {
   transform: translateY(-2px);
 }
 
-/* Cartoon button style */
 .btn {
   font-family: 'Nunito', sans-serif;
   font-weight: 800;
@@ -55,5 +53,52 @@ body {
   transition: all 0.2s ease;
   font-size: 1rem;
 }
+.btn-primary {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary-dark);
+  box-shadow: 0 4px 0 var(--primary-dark);
+}
 
-.btn-pri
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 var(--primary-dark);
+}
+
+.btn-primary:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 var(--primary-dark);
+}
+
+.input {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  border: 3px solid #D6E8FF;
+  border-radius: 50px;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  width: 100%;
+  outline: none;
+  transition: all 0.2s ease;
+  background: #F7FBFF;
+  color: var(--text);
+}
+
+.input:focus {
+  border-color: var(--primary);
+  background: white;
+  box-shadow: 0 0 0 4px rgba(74, 144, 217, 0.1);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #EEF6FF;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #A8D0F5;
+  border-radius: 10px;
+}
