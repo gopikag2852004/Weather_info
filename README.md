@@ -3,17 +3,17 @@ A monsoon route predictor for Kerala that estimates travel delays, flood risks a
 
 ## Final
 
-![Sign in](screenshot/screenshot 2026-06-09 005704.png)
+![Screenshot 1](screenshot/screenshot%202026-06-09%20005704.png)
 
-![Sign in](screenshot/screenshot 2026-06-09 005720.png)
+![Screenshot 2](screenshot/screenshot%202026-06-09%20005720.png)
 
-![Sign in](screenshot/screenshot 2026-06-09 005759.png)
+![Screenshot 3](screenshot/screenshot%202026-06-09%20005759.png)
 
-![Sign in](screenshot/screenshot 2026-06-09 005832.png)
+![Screenshot 4](screenshot/screenshot%202026-06-09%20005832.png)
 
-![Sign in](screenshot/screenshot 2026-06-09 005903.png)
+![Screenshot 5](screenshot/screenshot%202026-06-09%20005903.png)
 
-![Sign in](screenshot/screenshot 2026-06-09 005946.png)
+![Screenshot 6](screenshot/screenshot%202026-06-09%20005946.png)
 
 ## Data Sources
 
