@@ -37,7 +37,7 @@ Backend: Node.js, Express.js
 Database: SQLite                                                                                                                                           
 APIs: OpenStreetMap, OSRM
 
-## Architecture D iagram
+## Architecture Diagram
 
 ![Screenshot 7](screenshot/Screenshot%202026-06-09%20025131.png)
 
