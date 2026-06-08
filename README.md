@@ -28,7 +28,7 @@ A monsoon route predictor for Kerala that estimates travel delays, flood risks a
 Rain delay estimation: Rule-Based Expert System                                                                                                       
 Risk assessment: Weighted Safety Scoring Algorithm                                                                                                             
 Route risk mapping: Geospatial Intersection Analysis                                                                                                            
-Data modeling: MVC Architecture Pattern                                                                                                                          
+Data modeling: MVC Architecture Pattern                                                                                                                         
 Communication: REST API Design
 
 ## Tech Stack
@@ -36,6 +36,11 @@ Frontend: React.js, Leaflet.js
 Backend: Node.js, Express.js                                                                                                                                   
 Database: SQLite                                                                                                                                           
 APIs: OpenStreetMap, OSRM
+
+## Architecture D iagram
+
+![Screenshot 6](screenshot/Screenshot%2026-06-09%025131.png)
+
 
 
 
