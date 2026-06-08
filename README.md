@@ -39,7 +39,7 @@ APIs: OpenStreetMap, OSRM
 
 ## Architecture D iagram
 
-![Screenshot 6](screenshot/Screenshot%2026-06-09%025131.png)
+![Screenshot 7](screenshot/Screenshot%2026-06-09%025131.png)
 
 
 
