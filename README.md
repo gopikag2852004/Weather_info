@@ -25,16 +25,16 @@ A monsoon route predictor for Kerala that estimates travel delays, flood risks a
 | Flood prone zones | Manually curated dataset based on publicly known flood-prone areas in Kerala |
 
 ## Methodology
-Rain delay estimation: Rule-Based Expert System␠␠
-Risk assessment: Weighted Safety Scoring Algorithm␠␠
-Route risk mapping: Geospatial Intersection Analysis␠␠     
-Data modeling: MVC Architecture Pattern␠␠ 
+Rain delay estimation: Rule-Based Expert System                                                                                                       
+Risk assessment: Weighted Safety Scoring Algorithm                                                                                                             
+Route risk mapping: Geospatial Intersection Analysis                                                                                                            
+Data modeling: MVC Architecture Pattern                                                                                                                          
 Communication: REST API Design
 
 ## Tech Stack
-Frontend: React.js, Leaflet.js␠␠
-Backend: Node.js, Express.js␠␠
-Database: SQLite␠␠
+Frontend: React.js, Leaflet.js                                                                                                                                  
+Backend: Node.js, Express.js                                                                                                                                   
+Database: SQLite                                                                                                                                           
 APIs: OpenStreetMap, OSRM
 
 
